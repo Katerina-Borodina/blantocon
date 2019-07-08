@@ -1,0 +1,48 @@
+.brighta-wrap .carousel {
+    display: block;
+    max-width: 100%;
+    position: relative;
+    height: 100px;
+    padding: 0 37px;
+    margin: 0;
+}
+
+.brighta-wrap .hasControls{
+    display: block !important;
+    position: absolute !important;
+    width: 100%;
+    padding: 0 5px 0 7px;
+    top: 43%;
+}
+
+.brighta-wrap .slide{
+    padding: 12px 0 0 0;
+    margin: 0;
+}
+
+.brighta-wrap .slide-item {
+    padding: 12px 0 0 0;
+    margin: 0;
+}
+.brighta-wrap .prev{
+    display: block !important;
+    position: absolute !important;
+    top: 30%;
+    left: 0;
+    padding: 0 0 0 10px;
+    margin: 0;
+    width: 25px;
+    height: 25px;
+    z-index: 13;
+}
+.brighta-wrap .next{
+    display: block !important;
+    position: absolute !important;
+    top: 30%;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    width: 25px;
+    height: 25px;
+    z-index: 13;
+}

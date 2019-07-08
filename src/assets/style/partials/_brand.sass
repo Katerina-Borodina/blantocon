@@ -1,0 +1,184 @@
+.box-wrap
+  .brand
+    padding-top: 120px
+    &-title
+      font-style: normal
+      font-weight: bold
+      font-size: 48px
+      line-height: normal
+      text-align: center
+      color: #091622
+      padding-bottom: 54px
+
+
+  .clearfix:after
+    content: '.'
+    height: 0
+    font-size: 0
+    line-height: 0
+    display: block
+    clear: both
+    //visibility: hidden
+
+
+  .tabs-content
+    font-family: sans-serif
+
+  .tabs-menu
+    background: #091622
+    width: 95%
+    margin: 0 auto
+    overflow: hidden
+    position: relative
+    height: 100px
+
+  .hasControls
+      display: block
+      position: absolute
+      min-width: 100%
+      padding: 0 5px 0 7px
+      top: 43%
+      cursor: pointer
+  .prev
+      display: block !important
+      position: absolute !important
+      top: 30%
+      left: 0
+      padding: 0 0 0 10px
+      margin: 0
+      width: 25px
+      height: 25px
+      z-index: 13
+
+  .next
+      display: block !important
+      position: absolute !important
+      top: 30%
+      right: 0
+      padding: 0
+      margin: 0
+      width: 25px
+      height: 25px
+      z-index: 13
+
+  .slide
+    padding: 16px 0 0 0
+
+  .tabs-menu ul
+    list-style: none
+    display: flex
+    align-items: flex-start !important
+    vertical-align: top
+    justify-content: space-between
+    width: 100%
+    margin: 0
+
+  .tabs-menu ul li
+    @media  (max-width: 1024px) and (min-width: 770px)
+     padding: 12px
+
+  .tabs-menu ul li
+    @media  (max-width: 768px)
+      padding: 0
+
+
+  .tabs-menu ul li a
+    display: block
+    padding: 12px 4px
+    text-decoration: none
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 23px
+    text-align: center
+    color: #fff
+    opacity: 0.5
+    overflow: hidden
+    width: 100%
+    cursor: pointer
+    vertical-align: top
+
+  .tabs-menu ul li a.active-tab-menu
+    background: #091622
+    color: #fff
+    opacity: 1
+    transition: all ease-in-out 1s
+
+
+  /* Conteúdo das abas */
+  .tabs
+    display: none
+    padding: 0
+
+  .first-tab
+    display: block
+
+  .hidden
+    //visibility: hidden
+    opacity: 0
+    transition: all ease-in 1s
+
+  .show
+    //visibility: visible
+    opacity: 1
+    transition: all ease-in 1s
+
+
+
+  .tabs1
+    opacity: 0
+    display: none
+    transition: opacity ease-in-out 1s
+    .container
+      .row
+        .col-12
+            h2
+              font-style: normal
+              font-weight: bold
+              font-size: 36px
+              line-height: normal
+              color: #091622
+              padding-top: 160px
+              padding-bottom: 30px
+              padding-right: 120px
+            p
+              font-style: normal
+              font-weight: normal
+              font-size: 14px
+              line-height: 23px
+              color: #444B51
+              padding-bottom: 50px
+  .tabs-img
+    position: relative
+    right: 0
+    width: 50%
+    float: right
+    img
+      width: fill-available
+  .tabs-text
+    .br-button
+      margin: 0 auto
+      a
+        font-style: normal
+        font-weight: bold
+        font-size: 14px
+        line-height: normal
+        text-align: center
+        text-transform: uppercase
+        color: #FFFFFF
+
+      .btn
+        padding: 15px 0
+
+
+  .brand .tns-outer
+    width: calc(95% - 70px) !important
+    margin: 0 auto
+
+  .tns-slider .tns-slide-active a
+   opacity: 0.5
+
+  .active-tab-content
+    display: block
+    opacity: 1
+    transition: all 1s ease-in-out
